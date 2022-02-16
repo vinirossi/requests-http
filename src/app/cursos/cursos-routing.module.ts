@@ -1,9 +1,9 @@
-import { CursosListasComponent } from './cursos-listas/cursos-listas.component';
+import { CursosListaComponent } from './cursos-lista/cursos-lista.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', component: CursosListasComponent}
+  { path: '', component: CursosListaComponent}
 ];
 
 @NgModule({
